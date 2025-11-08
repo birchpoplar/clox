@@ -12,7 +12,7 @@ OBJ_DIR = $(BUILD_DIR)/obj
 TARGET = clox
 
 # Source files
-SRCS = main.c chunk.c memory.c value.c debug.c
+SRCS = main.c chunk.c memory.c value.c debug.c vm.c
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
 
 # Header files
